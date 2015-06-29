@@ -1,0 +1,72 @@
+body  {
+    background: url('../img/Fresh-Salad-Leaves.jpg');
+    background-size: 100%;
+}
+
+div {
+
+}
+
+#nav li {
+    display: inline-block;
+    background-color: #F0F0F0;
+    color: #003366;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 175%;
+    text-decoration: none;
+    text-align: center;
+}
+
+#heading {
+    float: center;
+    border-radius: 10px;
+    color: lime;
+    background-color: teal;
+    width: auto;
+    text-align: center;
+}
+
+
+#recipe {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    width: 22.5%;
+    font-size: 200%;
+    color: lime;
+    background-color: red;
+}
+
+#recipe p {
+    text-align: center;
+}
+
+#container {
+    float: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 160%;
+    opacity: 0.8;
+    color: lime;
+    background-color: teal;
+}
+
+#container p {
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 250%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}

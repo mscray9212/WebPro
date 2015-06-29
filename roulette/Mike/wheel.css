@@ -1,0 +1,83 @@
+h1 {
+    color: navy;
+    margin-left: 20px;
+    font-family: Century Gothic;
+}
+
+.wheel-wrapper {
+  background-color: yellow;
+  width: 30%;
+  height: 300px;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  float: left;
+  overflow: hidden;
+}
+
+.wheel-wrapper.last {
+  margin-right: 0;
+}
+
+.wheel-wrapper .wheel.primary .wheel-icon,
+.wheel-wrapper .wheel.secondary .wheel-icon-inner {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+  vborder-radius: 100%;
+  font-smooth: 0.01em; 
+  border-top-left-radius:2em;
+  border-top-right-radius:2em;
+  border-bottom-right-radius:2em;
+  border-bottom-left-radius:2em; 
+}
+
+.wheel-wrapper .wheel.primary .wheel-icon {
+  width: 45px;
+  height: 45px;
+  font-size: 16pt;
+  color: blue;
+  background-color: red;
+  line-height: 45px;
+}
+
+.wheel-wrapper .wheel.secondary .wheel-spoke,
+.wheel-wrapper .wheel.secondary .wheel-icon,
+.wheel-wrapper .wheel.secondary .wheel-icon-inner {
+  width: 30px;
+  height: 30px;
+}
+
+.wheel-wrapper .wheel.secondary .wheel-icon-inner {
+  font-size: 13pt;
+  color: green;
+  background-color: black;
+  line-height: 30px;
+}
+}
+
+.wheel-wrapper {
+  position: relative;
+}
+.wheel-wrapper .wheel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wheel-wrapper .wheel.primary {
+  z-index: 1;
+  width: ;
+  height: ;
+}
+.wheel-wrapper .wheel.secondary {
+  z-index: 0;
+  width: 5px;
+  height: 10px;
+}
+.wheel-wrapper .wheel.secondary.border {
+  border: red;
+}
+.wheel-wrapper .wheel.secondary .wheel-spoke {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
