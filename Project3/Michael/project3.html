@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fifteen Puzzle</title>
+		<link type="text/css" rel="stylesheet" href="project3.css"/>
+		 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="project3.js"></script>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<div id="title">Fifteen Puzzle</div>
+		<div id="para1" align="center">
+			<p>The goal of the fifteen puzzle is to un-jumble its fifteen squares by repeatedly making moves that slide squares<br>
+				into the empty space. How quickly can you solve it?
+			</p>
+		</div>
+		<div id="square">
+			<div class="row1">
+				<div class="handle a grid" id="first">1</div><!--
+				--><div class="handle a grid" id="second">2</div><!--
+				--><div class="handle a grid" id="third">3</div><!--
+				--><div class="handle a grid" id="fourth">4</div><br>
+			</div>
+			<div class="row2">
+				<div class="handle b grid" id="fifth">5</div><!--
+				--><div class="handle b grid" id="sixth">6</div><!--
+				--><div class="handle b grid" id="seventh">7</div><!--
+				--><div class="handle b grid" id="eigth">8</div><br>
+			</div>
+			<div class="row3">
+				<div class="handle c grid" id="ninth">9</div><!--
+				--><div class="handle c grid" id="tenth">10</div><!--
+				--><div class="handle c grid" id="eleventh">11</div><!--
+				--><div class="handle c grid" id="twelfth">12</div><br>
+			</div>
+			<div class="row4">
+				<div class="handle d grid" id="thirteenth">13</div><!--
+				--><div class="handle d grid" id="fourteenth">14</div><!--
+				--><div class="handle d grid" id="fifteenth">15</div><!--
+				--><div class="handle d grid" id="zero"></div>
+			</div>
+		</div>
+		<div align="center">
+			Moves:&nbsp;<span id="moves"><b>0</b></span><br>
+			Clock:&nbsp;<span id="clock"><b>0</b></span><br>
+			<br>
+		</div>
+		<div id="in">
+		<div class="dropdown">
+			<form>
+		<select id="shuffle"<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="caret"></span></button>>
+			<option value="20">Easy</option>
+			<option value="70">Medium</option>
+			<option value="150">Hard</option>
+		</select>
+			<button class="btn btn-primary" type="button" id="shuffle" onclick="getDiff();"/>Shuffle</button>
+			<button class="btn btn-primary" type="button" id="solve" onclick="getSol();"/>Solve</button>
+		</form>
+			<!--
+				<li><a href="" onclick="shuffle(20)">Easy</a></li>
+				<li class="divider"></li>
+				<li><a href="" onclick="shuffle(70)">Medium</a></li>
+				<li class="divider"></li>
+				<li><a href="" onclick="shuffle(150)">Hard</a></li>
+			</ul>
+		-->
+		</div>
+			<!--
+			<input type="button" value="Shuffle" id="shuffle" onclick="shuffle();"/>-->&nbsp;
+			
+		</div>
+		<!--
+		<div id="difficulty" align="center">
+			<br>Select a Shuffle difficulty:<br>
+			Easy:<input type="radio" name="diff" value="20" checked="checked">
+			Medium:<input type="radio" name="diff" value="70">
+			Hard:<input type="radio" name="diff" value="150">
+		</div>
+	-->
+		<div id="para2" align="center">
+			<p>American puzzle author and mathematician Sam Loyd is often falsely credited with creating the puzzle; indeed,<br>
+				Loyd claimed from 1891 until his death in 1911 that he invented it. The puzzle was actually created around 1874<br>
+				by Noyes Palmer Chapman, a postmaster in Canastota, New York.
+			</p>
+		</div>
+		<div id="options" align="center">
+			<div class="choice1 choices">
+				<input type="radio" name="image" value="zombie" checked="checked"><div><img src="zombieMario.jpg"></div>
+			</div>
+			<div class="choice2 choices">
+				<input type="radio" name="image" value="huh"><div><img src="huh.jpg"></div>
+			</div>
+			<div class="choice3 choices">
+				<input type="radio" name="image" value="element"><div><img src="element.jpg"></div>
+			</div>
+			<div class="choice4 choices">
+				<input type="radio" name="image" value="bowser"><div><img src="bowser.jpg"></div>
+			</div>
+		</div>
+	</body>	
+</html>
