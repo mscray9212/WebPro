@@ -1,0 +1,454 @@
+#title {
+	width: 100%;
+	margin: 50px auto;
+	text-align: center;
+	font-size: 32px;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+}
+
+#para1 {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#para1 p {
+	font-family: Comic Sans MS;
+	font-size: 16px;
+}
+
+#para2 {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#para2 p {
+	font-family: Comic Sans MS;
+	font-size: 16px;
+}
+
+#square {
+	width: 400px;
+	height: 400px;
+	margin: 25px auto;
+	white-space: nowrap;
+}
+
+#square div {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+span {
+	color: black;
+}
+
+.row1 div {
+	border: 2px solid black;
+	display: inline-block;
+	height: 96px;
+	width: 96px;
+	border-collapse:collapse;
+	text-align: center;
+	line-height: 96px;
+	vertical-align: top;
+}
+
+.row2 div {
+	border: 2px solid black;
+	display: inline-block;
+	height: 96px;
+	width: 96px;
+	border-collapse:collapse;
+	text-align: center;
+	line-height: 96px;
+	vertical-align: top;
+}
+
+.row3 div {
+	border: 2px solid black;
+	display: inline-block;
+	height: 96px;
+	width: 96px;
+	border-collapse:collapse;
+	text-align: center;
+	line-height: 96px;
+	vertical-align: top;
+}
+
+.row4 div {
+	border: 2px solid black;
+	display: inline-block;
+	height: 96px;
+	width: 96px;
+	border-collapse:collapse;
+	text-align: center;
+	line-height: 96px;
+	vertical-align: top;
+}
+
+#zero {
+	background-image: none;
+	border: 2px solid transparent;
+}
+
+.a#first{
+	background-position: 400px 0px;
+}
+
+.a#second {
+	background-position: 300px 0px;
+}
+
+.a#third {
+	background-position: 200px 0px;
+}
+
+.a#fourth {
+	background-position: 100px 0px;
+}
+
+.b#fifth {
+	background-position: 400px -100px;
+}
+
+.b#sixth {
+	background-position: 300px -100px;
+}
+
+.b#seventh {
+	background-position: 200px -100px;
+}
+
+.b#eigth {
+	background-position: 100px -100px;
+}
+
+.c#ninth {
+	background-position: 400px -200px;
+}
+
+.c#tenth {
+	background-position: 300px -200px;
+}
+
+.c#eleventh {
+	background-position: 200px -200px;
+}
+
+.c#twelfth {
+	background-position: 100px -200px;
+}
+
+.d#thirteenth {
+	background-position: 400px -300px;
+}
+
+.d#fourteenth {
+	background-position: 300px -300px;
+}
+
+.d#fifteenth {
+	background-position: 200px -300px;
+}
+
+.ab#first{
+	background-position: 0px 0px;
+	color: white;
+}
+
+.ab#second {
+	background-position: -100px 0px;
+	color: white;
+}
+
+.ab#third {
+	background-position: -200px 0px;
+	color: white;
+}
+
+.ab#fourth {
+	background-position: -300px 0px;
+	color: white;
+}
+
+.bb#fifth {
+	background-position: 0px -100px;
+	color: white;
+}
+
+.bb#sixth {
+	background-position: -100px -100px;
+	color: white;
+}
+
+.bb#seventh {
+	background-position: -200px -100px;
+	color: white;
+}
+
+.bb#eigth {
+	background-position: -300px -100px;
+	color: white;
+}
+
+.cb#ninth {
+	background-position: 0px -200px;
+	color: white;
+}
+
+.cb#tenth {
+	background-position: -100px -200px;
+	color: white;
+}
+
+.cb#eleventh {
+	background-position: -200px -200px;
+	color: white;
+}
+
+.cb#twelfth {
+	background-position: -300px -200px;
+	color: white;
+}
+
+.db#thirteenth {
+	background-position: 0px -300px;
+	color: white;
+}
+
+.db#fourteenth {
+	background-position: -100px -300px;
+	color: white;
+}
+
+.db#fifteenth {
+	background-position: -200px -300px;
+	color: white;
+}
+
+.ac#first{
+	background-position: -350px -50px;
+	color: white;
+}
+
+.ac#second {
+	background-position: -450px -50px;
+	color: white;
+}
+
+.ac#third {
+	background-position: -550px -50px;
+	color: white;
+}
+
+.ac#fourth {
+	background-position: -650px -50px;
+	color: white;
+}
+
+.bc#fifth {
+	background-position: -350px -150px;
+	color: white;
+}
+
+.bc#sixth {
+	background-position: -450px -150px;
+	color: white;
+}
+
+.bc#seventh {
+	background-position: -550px -150px;
+	color: white;
+}
+
+.bc#eigth {
+	background-position: -650px -150px;
+	color: white;
+}
+
+.cc#ninth {
+	background-position: -350px -250px;
+	color: white;
+}
+
+.cc#tenth {
+	background-position: -450px -250px;
+	color: white;
+}
+
+.cc#eleventh {
+	background-position: -550px -250px;
+	color: white;
+}
+
+.cc#twelfth {
+	background-position: -650px -250px;
+	color: white;
+}
+
+.dc#thirteenth {
+	background-position: -350px -350px;
+	color: white;
+}
+
+.dc#fourteenth {
+	background-position: -450px -350px;
+	color: white;
+}
+
+.dc#fifteenth {
+	background-position: -550px -350px;
+	color: white;
+}
+
+.ad#first{
+	background-position: -400px -150px;
+	color: white;
+}
+
+.ad#second {
+	background-position: -500px -150px;
+	color: white;
+}
+
+.ad#third {
+	background-position: -600px -150px;
+	color: white;
+}
+
+.ad#fourth {
+	background-position: -700px -150px;
+	color: white;
+}
+
+.bd#fifth {
+	background-position: -400px -250px;
+	color: white;
+}
+
+.bd#sixth {
+	background-position: -500px -250px;
+	color: white;
+}
+
+.bd#seventh {
+	background-position: -600px -250px;
+	color: white;
+}
+
+.bd#eigth {
+	background-position: -700px -250px;
+	color: white;
+}
+
+.cd#ninth {
+	background-position: -400px -350px;
+	color: white;
+}
+
+.cd#tenth {
+	background-position: -500px -350px;
+	color: white;
+}
+
+.cd#eleventh {
+	background-position: -600px -350px;
+	color: white;
+}
+
+.cd#twelfth {
+	background-position: -700px -350px;
+	color: white;
+}
+
+.dd#thirteenth {
+	background-position: -400px -450px;
+	color: white;
+}
+
+.dd#fourteenth {
+	background-position: -500px -450px;
+	color: white;
+}
+
+.dd#fifteenth {
+	background-position: -600px -450px;
+	color: white;
+}
+
+.grid {
+	background-image: url("zombieMario.jpg");
+}
+
+.huh {
+	background-image: url("huh.jpg");
+}
+
+.element {
+	background-image: url("element.jpg");
+}
+
+.bowser {
+	background-image: url("bowser.jpg");
+}
+
+#in {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+}
+
+#shuffle {
+	margin: 0 auto;
+}
+
+#options {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.choices {
+	height:250px;
+	width: 200px;
+	padding: 10px 10px 10px 10px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.dropdown option {
+	text-align: center;
+}
+
+.caret {
+	color: #ffffff;
+}
+
+.choice1 {
+	margin: 30px 50px 30px 50px;
+}
+
+.choice2 {
+	margin: 30px 50px 30px 50px;
+}
+
+.choice3 {
+	margin: 30px 50px 30px 50px;
+}
+
+.choice4 {
+	margin: 30px 50px 30px 50px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+
+

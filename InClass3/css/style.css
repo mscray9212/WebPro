@@ -1,0 +1,11 @@
+body {
+  background: #99CCFF;
+  font-family: sans-serif;
+}
+
+.error {
+	color: red;
+	text-decoration: underline;
+	font-size: 15px;
+	padding-left: 95px;
+}

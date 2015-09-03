@@ -1,0 +1,53 @@
+1body {
+  background-image: url("img/images.jpg");
+  font-family: sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+span {
+	border-bottom: 2px blue dotted;
+}
+
+#main {
+	background-color: white;
+}
+
+#victoria {
+  	background-color: #A8F0F0;
+  	text-align: right;
+}
+
+#container2 {
+  	border: 4px #C2E9E9 solid;
+}
+
+#spatula {
+	overflow: hidden;
+  	border: 4px #C2E9E9 solid;
+  	padding: 5px;
+  	margin-top: 10px;
+  	background-color: #E8FBFB;
+}
+
+#spatula img {
+	float: right;
+}
+
+#cookie {
+	overflow: hidden;
+  	border: 4px #C2E9E9 solid;
+  	padding: 5px;
+  	margin-top: 10px;
+  	background-color: #E8FBFB;
+}
+
+#cookie img {
+	float: right;
+}
+
+#fresh {
+  	font-size: 14px;
+}

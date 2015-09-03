@@ -1,0 +1,466 @@
+table {
+	background-color: #003300;
+	border-collapse: collapse;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+  	empty-cells: hide;
+}
+
+th {
+  font-size: 20px;
+}
+
+tfoot td {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.foot td {
+  border-style: solid;
+  border-color: yellow;
+}
+
+td {
+	border: 2px solid white;
+	padding: 4px 4px 4px 4px;
+}
+
+#thead tr {
+	text-align: center;
+}
+
+#rzero {
+  padding-right: 25px;
+  display: inline;
+  border-right: 1px solid white;
+}
+
+#dzero {
+  padding-left: 20px;
+  display: inline;
+}
+
+.circle-container-red {
+    position: relative;
+    width: 3em;
+    height: 1.5em;
+    padding: 0.75em;
+    background-color: red;
+    border: 1px solid red;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: solid 1px;
+    border-radius: 100%;
+    margin: 0.75em auto 0.75em;
+    transform: rotate(270deg);
+}
+
+.circle-container-black {
+    position: relative;
+    width: 3em;
+    height: 1.5em;
+    padding: 0.75em;
+    background-color: black;
+    border: 1px solid black;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: solid 1px;
+    border-radius: 100%;
+    margin: 0.75em auto 0.75em;
+    transform: rotate(270deg);
+}
+
+.2-to-1 p{
+    transform: rotate(270deg);
+}
+
+#trapezoid {
+  height: 0px;
+  width: 130px;
+  border-bottom: 100px solid blue;
+  border-left: 45px solid #003300;
+  border-right: 45px solid #003300;
+  padding-bottom: 115px;
+  transform: rotate(270deg);
+  /*
+	height: 0px;
+	width: 120px;
+	border-bottom: 80px solid blue;
+	border-left: 45px solid #003300;
+	border-right: 45px solid #003300;
+	transform: rotate(270deg);
+  */
+}
+
+.board {
+  width: auto;
+  height: 800px;
+	background-origin: center;
+	border-top: 35px solid #996633;
+	border-bottom: 35px solid #996633;
+	border-left: 35px solid #996633;
+	border-right: 35px solid #996633;
+	background-color: #003300;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.wheel {
+	float: left;
+	border-top: 75px solid #003300;
+	border-bottom: 15px solid #003300;
+	border-left: 75px solid #003300;
+	border-right: 15px solid #003300;
+	border-top-left-radius: 75px;
+	border-top-right-radius: 75px;
+	border-bottom-left-radius: 75px;
+	border-bottom-right-radius: 75px;
+}
+
+.straight {
+	background-origin: center;
+
+}
+
+.rotate {
+	transform: rotate(270deg);
+	transform-origin: center top;
+  width: 12%;
+  height: auto;
+
+}
+
+.bottom {
+  width: 50%;
+}
+
+#outside {
+  margin: auto;
+  border-radius: 50%;
+  background: #996633;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+#level1 {
+  border-radius: 50%;
+  height: 480px;
+  width: 480px;
+  background: #AD8533;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#level2 {
+  border-radius: 50%;
+  height: 440px;
+  width: 440px;
+  background: #FFCC00;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#roulette {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+  background: 
+    linear-gradient(9.36deg, red 14.15%, transparent 14.15%) 0 0,
+    linear-gradient(18.72deg, black 25.31%, transparent 25.31%) 0 0,
+    linear-gradient(28.08deg, red 34.79%, transparent 34.79%) 0 0,
+    linear-gradient(37.44deg, black 43.36%, transparent 43.36%) 0 0,
+    linear-gradient(46.8deg, red 51.57%, transparent 51.57%) 0 0,
+    linear-gradient(56.16deg, black 59.86%, transparent 59.86%) 0 0,
+    linear-gradient(65.52deg, red 68.71%, transparent 68.71%) 0 0,
+    linear-gradient(74.88deg, black 78.73%, transparent 78.73%) 0 0,
+    linear-gradient(83.88deg, red 90.32%, transparent 90.32%) 0 0,
+    linear-gradient(93.24deg, green 106.00%, transparent 106.00%) 0 0,
+    
+    linear-gradient(-9.36deg, red 14.15%, transparent 14.15%) 100% 0,
+    linear-gradient(-18.72deg, black 25.31%, transparent 25.31%) 100% 0,
+    linear-gradient(-28.08deg, red 34.79%, transparent 34.79%) 100% 0,
+    linear-gradient(-37.44deg, black 43.36%, transparent 43.36%) 100% 0,
+    linear-gradient(-46.8deg, red 51.57%, transparent 51.57%) 100% 0,
+    linear-gradient(-56.16deg, black 59.86%, transparent 59.86%) 100% 0,
+    linear-gradient(-65.52deg, red 68.71%, transparent 68.71%) 100% 0,
+    linear-gradient(-74.88deg, black 78.73%, transparent 78.73%) 100% 0,
+    linear-gradient(-83.88deg, red 90.32%, transparent 90.32%) 100% 0,
+    linear-gradient(-93.24deg, green 106.00%, transparent 106.00%) 100% 0,
+    
+    linear-gradient(9.36deg, transparent 85.85%, black 85.85%) 100% 100%,
+    linear-gradient(18.72deg, transparent 74.69%, red 74.69%) 100% 100%,
+    linear-gradient(28.08deg, transparent 65.21%, black 65.21%) 100% 100%,
+    linear-gradient(37.44deg, transparent 56.64%, red 56.64%) 100% 100%,
+    linear-gradient(46.8deg, transparent 48.43%, black 48.43%) 100% 100%,
+    linear-gradient(56.16deg, transparent 40.14%, red 40.14%) 100% 100%,
+    linear-gradient(65.52deg, transparent 31.29%, black 31.29%) 100% 100%,
+    linear-gradient(74.88deg, transparent 21.27%, red 21.27%) 100% 100%,
+    linear-gradient(83.88deg, transparent 9.68%, black 9.68%) 100% 100%,
+    linear-gradient(93.24deg, transparent -6%, green -6%) 100% 100%,
+    
+    linear-gradient(-9.36deg, transparent 85.85%, black 85.85%) 0 100%,
+    linear-gradient(-18.72deg, transparent 74.69%, red 74.69%) 0 100%,
+    linear-gradient(-28.08deg, transparent 65.21%, black 65.21%) 0 100%,
+    linear-gradient(-37.44deg, transparent 56.64%, red 56.64%) 0 100%,
+    linear-gradient(-46.8deg, transparent 48.43%, black 48.43%) 0 100%,
+    linear-gradient(-56.16deg, transparent 40.14%, red 40.14%) 0 100%,
+    linear-gradient(-65.52deg, transparent 31.29%, black 31.29%) 0 100%,
+    linear-gradient(-74.88deg, transparent 21.27%, red 21.27%) 0 100%,
+    linear-gradient(-83.88deg, transparent 9.68%, black 9.68%) 0 100%,
+    linear-gradient(-93.24deg, transparent -6%, green -6%) 0 100%,
+    #43a1cd linear-gradient(#ba3e2e, #ba3e2e) 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  transition: 1s;
+}
+
+#roulette:hover {
+  transform: rotate(360deg);
+}
+
+
+span {
+  position: absolute;
+  font: 12px Monaco, MonoSpace;
+  height: 400px;
+    width: 9.47px;
+    left: 195.27px;
+    top: 0px;
+    color: white;
+}
+
+#dz {
+  transform: rotate(0deg);
+  margin-left: -3px;
+}
+
+#twentyseven {
+  transform: rotate(10deg);
+}
+
+#ten {
+  transform: rotate(19.36deg);
+}
+
+#twentyfive {
+  transform: rotate(28.72deg);
+}
+
+#twentynine {
+  transform: rotate(38.08deg);
+}
+
+#twelve {
+  transform: rotate(47.44deg);
+}
+
+#eight {
+  transform: rotate(57.5deg);
+}
+
+#nineteen {
+  transform: rotate(66.00deg);
+}
+
+#thirtyone {
+  transform: rotate(75.39deg);
+}
+
+#eightteen {
+  transform: rotate(84.75deg);
+}
+
+#six {
+  transform: rotate(94.75deg);
+}
+
+#twentyone {
+  transform: rotate(103.75deg);
+}
+
+#thirtythree {
+  transform: rotate(113.11deg);
+}
+
+#sixteen {
+  transform: rotate(122.00deg);
+}
+
+#four {
+  transform: rotate(132.00deg);
+}
+
+#twentythree {
+  transform: rotate(140.25deg);
+}
+
+#thirtyfive {
+  transform: rotate(149.25deg);
+}
+
+#fourteen {
+  transform: rotate(159.25deg);
+}
+
+#two {
+  transform: rotate(169.75deg);
+}
+
+#zero {
+  transform: rotate(180.00deg);
+}
+
+#twentyeight {
+  transform: rotate(189.50deg);
+}
+
+#nine {
+  transform: rotate(199.86deg);
+}
+
+#twentysix {
+  transform: rotate(208.50deg);
+}
+
+#thirty {
+  transform: rotate(217.50deg);
+}
+
+#eleven {
+  transform: rotate(227.00deg);
+}
+
+#seven {
+  transform: rotate(238.00deg);
+}
+
+#twenty {
+  transform: rotate(246.00deg);
+}
+
+#thirtytwo {
+  transform: rotate(255.00deg);
+}
+
+#seventeen {
+  transform: rotate(264.25deg);
+}
+
+#five {
+  transform: rotate(274.75deg);
+}
+
+#twentytwo {
+  transform: rotate(283.50deg);
+}
+
+#thirtyfour {
+  transform: rotate(292.50deg);
+}
+
+#fifteen {
+  transform: rotate(302.00deg);
+}
+
+#three {
+  transform: rotate(312.50deg);
+}
+
+#twentyfour {
+  transform: rotate(320.75deg);
+}
+
+#thirtysix {
+  transform: rotate(330.00deg);
+}
+
+#thirteen {
+  transform: rotate(339.75deg);
+}
+
+#one {
+  transform: rotate(350.00deg);
+}
+
+#ring {
+  height: 360px;
+  width: 360px;
+  position: absolute;
+  top: 17.5px;
+  left: 17.5px;
+  border-radius: 50%;
+  border: 3px solid #E6E6E6;
+}
+
+#middle {
+  height: 100px;
+  width: 100px;
+  background: #996633;
+  position: absolute;
+  top: 130px;
+  left: 130px;
+  border-radius: 50%;
+}
+
+#crown {
+  height: 40px;
+  width: 40px;
+  background: #E6E6E6;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 50%;
+}
+
+#bets {
+  width: 30%;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  color: lime;
+}
+
+#betting {
+  float: right;
+  color: lime;
+  margin-right: 70px;
+}
+
+#betting h2 {
+	width: 40%;
+	text-align: center;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 42px;
+}
+
+#betting p {
+	text-align: center;
+	font-size: 22px;
+}
+
+#betting form {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#betButton {
+	height: 30px;
+	width: 150px;
+	margin-left: 120px;
+}
+
+#betInput {
+	font-size: 24px;
+	margin-left: -150px;
+}
